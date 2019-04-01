@@ -10,6 +10,16 @@ namespace Connect4
     {
         static void Main(string[] args)
         {
+            Board board = new Board();
+
+            Console.WriteLine("select amount of rows");
+            int rows = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("select amount of columns");
+            int columns = Convert.ToInt32(Console.ReadLine());
+
+            board.GameMoves(rows, columns);
+            board.BuildBoard(rows, columns);
         }
     }
 }
