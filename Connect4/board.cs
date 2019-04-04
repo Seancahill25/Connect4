@@ -8,12 +8,6 @@ namespace Connect4
 {
     class Board
     {
-        public char[,] GameMoves(int height, int width)
-        {
-            char[,] moves = new char[height, width];
-            return moves;
-        }
-
         static String[] parts = { "|", " ", "+", "-" };
         String wall = parts[0];
         String space = parts[1];
@@ -28,21 +22,30 @@ namespace Connect4
                 {
                     if (vert % 2 == 0)
                     {
-                        Console.Write("{0}{1}", plus, dash);
+                        Console.Write(plus + dash);
                         if (horz == width - 1)
                         {
-                            Console.Write("{0}{1}", plus, space);
+                            Console.Write(plus + space);
                             break;
                         }
                     }
                     else
                     {
-                        Console.Write("{0}{1}", wall, space);
+                        Console.Write(wall + space);
                     }
                 }
                 Console.WriteLine();
             }
             Console.WriteLine();
+        }
+    }
+
+    class game
+    {
+        public char[,] GameMoves(int height, int width)
+        {
+            char[,] moves = new char[height, width];
+            return moves;
         }
     }
 }
