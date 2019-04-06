@@ -1,0 +1,7 @@
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\bin\Debug\DrawBoardV2Milo.exe.config
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\bin\Debug\DrawBoardV2Milo.exe
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\bin\Debug\DrawBoardV2Milo.pdb
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\obj\Debug\DrawBoardV2Milo.csprojAssemblyReference.cache
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\obj\Debug\DrawBoardV2Milo.csproj.CoreCompileInputs.cache
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\obj\Debug\DrawBoardV2Milo.exe
+C:\Users\shirley\source\repos\Connect4\Connect4 v3\DrawBoardV2Milo\obj\Debug\DrawBoardV2Milo.pdb
