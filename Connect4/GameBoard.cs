@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Connect4
 {
-
     public class GameBoard
     {
         int height;
@@ -33,7 +32,7 @@ namespace Connect4
             Console.Write(" -- ");
         }
 
-        public void DrawBoard(int height, int width, char[,] moves)
+        public void DrawBoard(int height, int width)
         {
             for (int rowCounter = 0; rowCounter < height; rowCounter++)
             {

@@ -30,10 +30,9 @@ namespace Connect4
             GameBoard myGame = new GameBoard(height, width);
             Game moves = new Game();
             char[,] board = moves.GameMoves(height, width);
-            myGame.DrawBoard(height, width, board);
+            myGame.DrawBoard(height, width);
             moves.DropPiece(board);
-            myGame.DrawBoard(height, width, board);
-
+            myGame.DrawBoard(height, width);
         }
     }
 }

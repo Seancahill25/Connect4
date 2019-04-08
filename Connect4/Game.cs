@@ -24,8 +24,7 @@ namespace Connect4
             {
                 moves[height, dropChoice] = 'X';
             }
-           
-
         }
+
     }
 }
