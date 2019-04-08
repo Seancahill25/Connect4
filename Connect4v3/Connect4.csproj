@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2E721EC8-08F6-4424-9169-099DC13763F0}</ProjectGuid>
+    <ProjectGuid>{DC8A0EC2-E86C-4733-A453-4627613F4035}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Connect4</RootNamespace>
     <AssemblyName>Connect4</AssemblyName>
@@ -42,8 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game.cs" />
-    <Compile Include="GameBoard.cs" />
+    <Compile Include="board.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
