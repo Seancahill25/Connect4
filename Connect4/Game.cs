@@ -17,8 +17,8 @@ namespace Connect4
         public void DropPiece(char[,] moves)
         {
             Console.WriteLine("Please enter a number between 1 and 7: ");
-            int dropChoice = Convert.ToInt32(Console.ReadLine());
-            int height = 5;
+            int dropChoice = Convert.ToInt32(Console.ReadLine()) - 1;
+            int height = moves.GetLength(0) - 1;            
 
             if (moves[height, dropChoice] != 'X')
             {
